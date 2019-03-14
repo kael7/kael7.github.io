@@ -4,70 +4,272 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/02/28124243/Snowflakes-PNG-File-895x1024.png">
+  <title>Snowflake</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- CSS dependencies -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="theme.css" type="text/css"> </head>
+  <link rel="stylesheet" href="demo.css" type="text/css">
+</head>
 
 <body>
-  <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#"><i class="fa d-inline fa-lg fa-cloud"></i><b>  Cloud</b></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent"> </div>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-3">
+            <a class="nav-link text-light" href="#"><i class="fa d-inline fa-lg fa-snowflake-o"></i> <b>Snowflake</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#service"><b>Услуги</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#about"><b>О нас</b></a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn btn-secondary mx-2" href="#book"><b>Зарегистрировать</b></a>
+      </div>
     </div>
   </nav>
-  <div class="py-5 text-center bg-gradient" style="">
-    <div class="container py-5">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="display-1">Cloud</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
+  <!-- Cover -->
+  <div class="align-items-center d-flex cover section-dark section-parallax py-5" style="background-image: url(https://www.10wallpaper.com/wallpaper/1920x1080/1802/Cold_winter_blue_sky_snow_mountain_range_1920x1080.jpg);">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>File Name</th>
-                <th>URL</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Agile Web Development with Rails 5</td>
-                <td>
-                  <a href="http://hb.bizmrg.com/kael/Agile_Web_Development_with_Rails_5.pdf">Download</a>
-                  <img class="img-fluid d-block" src="1.jpg" width="200" height=""> </td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Beginning Programming with Swift</td>
-                <td>
-                  <a href="http://hb.bizmrg.com/kael/Beginning%20iOS%2010%20Programming%20with%20Swift.pdf">Download</a>
-                  <img class="img-fluid d-block" src="2.jpg" width="200"> </td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Intermediate iOS Programming with Swift</td>
-                <td>
-                  <a href="http://hb.bizmrg.com/kael/Intermediate%20iOS%2010%20Programming%20with%20Swift.pdf">Download</a>
-                  <img class="img-fluid d-block" src="3.jpg" width="200"> </td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="col-lg-7 align-self-center text-lg-left text-center">
+          <h1 class="mb-0 mt-5 display-4">Тау Самалы</h1>
+          <p class="mb-5">Горнолыжная база</p>
+        </div>
+        <div class="col-lg-5 p-3">
+          <form class="p-4 bg-light" method="post" action="#">
+            <h4 class="mb-4 text-center">Зарегистрировать</h4>
+            <div class="form-group"> <label>Имя</label>
+              <input class="form-control" placeholder="Введите здесь"> </div>
+            <div class="form-group"> <label>Время</label>
+              <input type="time" class="form-control" placeholder="13"> </div>
+            <div class="form-group"> <label>Кол-во людей</label>
+              <input type="number" class="form-control" placeholder="2"> </div>
+            <button type="submit" class="btn mt-4 btn-block p-2 btn-primary"><b>Купить</b></button>
+          </form>
         </div>
       </div>
     </div>
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Intro -->
+  <div class="py-5" style="background-image: url(http://diesel.elcat.kg/uploads/monthly_02_2016/post-36087-1454596056.jpg);">
+    <div class="container">
+      <div class="row my-5 bg-primary">
+        <div class="p-4 col-md-6">
+          <h2 class="mb-3">Зима — любимое время для ценителей активного отдыха.</h2>
+          <p class="my-4">Каждый спортсмен, как профессионал, так и любитель, ежегодно задается вопросом выбора места для активного отдыха.</p>
+        </div>
+        <div class="p-0 col-md-6 d-none d-md-block">
+          <img class="img-fluid d-block" src="http://letogdety.ru/wp-content/uploads/2017/10/gornolyizhnyiy-kurort.jpg"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- Gallery -->
+  <div class="">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://sxodim.com/uploads/shymkent/2017/12/24785305_607795002678107_8175026983754299296_o.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://sxodim.com/uploads/shymkent/2018/12/photo_2018-12-21_01-40-14.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://oninfo.kz/wp-content/uploads/2017/12/IMG_9999-768x512.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://sxodim.com/uploads/shymkent/2018/12/photo_2018-12-21_01-40-13.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://sxodim.com/uploads/shymkent/2018/12/photo_2018-12-21_01-40-58.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://sxodim.com/uploads/shymkent/2018/12/photo_2018-12-21_01-40-50.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://sxodim.com/uploads/shymkent/2018/12/photo_2018-12-21_01-40-16.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="http://kaskasu.com/VzqQL7D9bvk.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://img.prosports.kz/news/content/file_1465982324_553451883.jpgg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="http://olympic.kz/images/1529641448.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img src="https://i9.photo.2gis.com/images/branch/67/9429411732506849_e14a.jpg" class="img-fluid"> </div>
+        <div class="p-0 col-md-2 col-4">
+          <img class="img-fluid" src="http://dostoprim.almaty.kz/upload/images/Almaty_Chimb_12.jpg"> </div>
+      </div>
+    </div>
+  </div>
+  <!-- Menu -->
+  <div class="py-5 text-center" id="service" style="background-image: url(&quot;http://two-blades.com/wp-content/gallery/shtubai2017/5.jpg&quot;);">
+    <div class="container">
+      <div class="row p-4 bg-aquamarine animate-in-down">
+        <div class="col-md-12">
+          <h2>Услуги</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <h5>Цена за вход</h5>
+              <ul class="list-unstyled">
+                <li class="my-4">с человека для пешего туриста&nbsp;<br>[ 1000 т ]</li>
+                <li class="my-4">Легкий автомобиль&nbsp;<br>[ 1500 т ]</li>
+                <li class="my-4">Микроавтобус&nbsp;<br>[ 5000 т ]</li>
+                <li class="my-4">Автобус<br>[ 10000 т ]</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Прокат лыж и сноубордов</h5>
+              <ul class="list-unstyled">
+                <li class="my-4">Прокат лыж<br>[ 3000 т ]</li>
+                <li class="my-4">Прокат лыжных палок&nbsp;<br>[ 1000 т ]</li>
+                <li class="my-4" contenteditable="true">Прокат сноубордов<br>[ 3000 т ]</li>
+                <li class="my-4">Прокат санок&nbsp;<br>[ 2000 т ]</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h5>Прокат одежды</h5>
+              <ul class="list-unstyled">
+                <li class="my-4">Очки<br>[ 1500 т ]</li>
+                <li class="my-4">Каска&nbsp;<br>[ 1500 т ]</li>
+                <li class="my-4">Спец.одежда&nbsp;<br>[ 3000 т ]</li>
+                <li class="my-4">Обувь&nbsp;<br>[ 1500 т ]</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel reviews -->
+  <div class="py-5 text-center photo-overlay" style="background-image: url(https://travelbook.kz/uploads/photos/middle/f79abc4522709709f2da3f6f54cb751e.JPG);">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto col-12 p-3 section-light col-lg-5">
+          <div class="carousel slide" data-ride="carousel" id="carouselTestimonial">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item">
+                <img class="d-block img-fluid rounded-circle mx-auto" src="https://static.shimlapacks.in/shimla-tour-package-from-jalandhar-4-nights-5-days-by-volvo.jpg" data-holder-rendered="true" width="200">
+                <p class="my-3">Прекрасные горные пейзажи,чистый воздух,незабываемые впечатления</p> <i class="fa fa-star d-inline"></i><i class="fa fa-star mx-1 d-inline"></i><i class="fa fa-star d-inline"></i><i class="fa fa-star mx-1 d-inline"></i><i class="fa fa-star-o d-inline"></i>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid rounded-circle mx-auto" src="https://bwd551ob9r32wnvys1rt4x5dj3-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Mountain-Sports-School-06-400x400.jpg" data-holder-rendered="true" width="200">
+                <p class="my-3">Горнолыжный пейзаж,можно<br> увидеть красоту природы.</p> <i class="fa fa-star d-inline"></i><i class="fa fa-star mx-1 d-inline"></i><i class="fa fa-star d-inline"></i><i class="fa fa-star mx-1 d-inline"></i> <i class="fa fa-star d-inline"></i>
+              </div>
+              <div class="carousel-item active">
+                <img class="d-block img-fluid rounded-circle mx-auto" src="https://fs-th.getcourse.ru/fileservice/file/thumbnail/h/d5b1652ba03bca0c84fe14637f25c25b.jpg/s/400x400/a/1120/sc/221ы" data-holder-rendered="true" width="200">
+                <p class="my-3">Хорошая трасса, канатная дорога. Есть развлечения и для тех, кто не катается на лыжах.</p> <i class="fa fa-star d-inline"></i><i class="fa fa-star mx-1 d-inline"></i><i class="fa fa-star d-inline"></i><i class="fa fa-star-half-o mx-1 d-inline"></i><i class="fa fa-star-o d-inline"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Carousel venue -->
+  <div class="py-5 section-dark" id="about" style="background-image: url(https://img.tourister.ru/files/2/1/2/5/8/3/0/5/original.jpg);">
+    <div class="container">
+      <div class="row bg-primary animate-in-down">
+        <div class="p-4 col-md-6 align-self-center">
+          <h2>О нас</h2>
+          <p class="my-4">Горнолыжная база Тау Самалы расположена в живописном уголке Туркестанской области, Толебийского района, в 1 часу езды от центра города Шымкента.<br> Здесь раздолье и для любителей фрирайда и для тех, кто предпочитает кататься по ухоженным трассам. Протяженность спуска 1800 метров. Минимальный уклон 5-10%, максимальный 30-40%.<br> С начала сезона горные склоны обслуживаются подъемниками на 152 места. Если вы впервые встали на лыжи, то профессиональные инструкторы обучат Вас технике катания.</p>
+        </div>
+        <div class="p-0 col-md-6">
+          <div class="carousel slide" data-ride="carousel" id="carousel1">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item">
+                <img class="d-block img-fluid w-100" src="https://www.hotel-outside.com/fileadmin/_processed_/csm_skigebiet_kals_matrei_f442883e4c.jpg" alt="first slide">
+                <div class="carousel-caption">
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <img class="d-block img-fluid w-100" src="https://www.rosengarten-taxacher.com/wp-content/uploads/2017/10/Relais-Chateaux_Hotel_Restaurant_Spa_Rosengarten_Kirchberg_Tirol_5-Sterne_Lifestyle_Hotel_Skifahren-25_gut_zu_wissen_1000-1000.jpg" data-holder-rendered="true">
+                <div class="carousel-caption">
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid w-100" src="https://images.pexels.com/photos/908711/pexels-photo-908711.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;fit=crop&amp;h=500&amp;w=500" data-holder-rendered="true">
+                <div class="carousel-caption">
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid w-100" src="http://www.millemundi.com/media/catalog/product/cache/5/image/1800x/040ec09b1e35df139433887a97daa66f/n/a/nassfeld-ski-resort-on-the-border-between-italy-and-austria_04.png" data-holder-rendered="true">
+                <div class="carousel-caption">
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+            <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Events -->
+  <!-- Parallax section -->
+  <div class="py-5 photo-overlay section-parallax" id="book" style="background-image: url(https://www.basinski.com/wp-content/uploads/2016/04/Basin-Sports-Killington-Snow-Report.jpg);">
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-lg-6 mx-auto p-3 animate-in-down">
+          <form class="p-4 bg-light" method="post" action="#">
+            <h4 class="mb-4 text-center">Зарегистрировать</h4>
+            <div class="form-group"> <label>Имя</label>
+              <input class="form-control" placeholder="Введите здесь"> </div>
+            <div class="form-group"> <label>Время</label>
+              <input type="time" class="form-control" placeholder="13"> </div>
+            <div class="form-group"> <label>Кол-во людей</label>
+              <input type="number" class="form-control" placeholder="2"> </div>
+            <button type="submit" class="btn mt-4 btn-block p-2 btn-primary"><b>Купить</b></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <div class="text-center bg-dark pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 p-3">
+          <h2 class="mb-4">Контакты</h2>
+          <p class="m-0">
+            <a href="tel:+246 - 542 550 5462" class="text-white">8 701 930 66 99</a>
+          </p>
+          <p>
+            <a href="mailto:info@pingendo.com" class="text-white">info@info.com</a>
+          </p>
+        </div>
+        <div class="col-md-4 p-3">
+          <h2 class="mb-4">Адрес</h2>
+          <p>
+            <a href="https://www.google.it/maps" target="blank" class="text-white">Толебийский район, <br>Тау Самалы</a>
+          </p>
+        </div>
+        <div class="col-md-4 p-3">
+          <h2 class="mb-4">Рабочее время</h2>
+          <p contenteditable="true">11:00 - 15:00 &amp; 19:00 - 00:00 Пон/Пят&nbsp;<br>11:00 - 15:00 &amp; 19:00 - 02:00 Суб/Вос</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mt-3">
+          <p class="text-center text-muted">© Copyright 2018 Snowflake - All rights reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- JavaScript dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous" style=""></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <!-- Script: Smooth scrolling between anchors in the same page -->
+  <script src="js/smooth-scroll.js"></script>
 </body>
 
 </html>
